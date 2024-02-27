@@ -8,7 +8,7 @@ function page() {
     <>
      <div className='flex'>
         <div className='bg-[#004AAD] w-[231px] h-[1628px] text-white flex'>
-          {/* <Sidebar/> */}
+          <Sidebar/>
         </div>
         <div className="bg-[#FFFFFF] w-full">
           {/* <Dashbord/> */}
