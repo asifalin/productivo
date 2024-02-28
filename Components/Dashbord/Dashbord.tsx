@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Head from './Head'
+
 
 function Dashbord() {
   return (
     <div>
       <Navbar/>
-      <h1>ojihuboiyvuy
-        
-      </h1>
+      <Head/>
     </div>
   )
 }
