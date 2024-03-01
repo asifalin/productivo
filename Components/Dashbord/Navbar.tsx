@@ -4,20 +4,20 @@ import { IoIosNotificationsOutline ,IoIosArrowDown } from "react-icons/io";
 import profile from '../../public/picture/5cf6a10be574b54b71cf418fa3466bb6.jpeg';
 import Image from 'next/image';
 
-const Heading = ({ text, styles }) => {
-  return (
-    <h1 className={styles}>
-      {text}
-    </h1>
-  );
-};
+// const Heading = ({ text, styles }) => {
+//   return (
+//     <h1 className={styles}>
+//       {text}
+//     </h1>
+//   );
+// };
 
 function Navbar() {
   return (
     <div className='flex justify-between items-center h-[83px]'>
-      <div>
+      {/* <div>
         <Heading text="Dashbord" styles="" />
-      </div>
+      </div> */}
       <div className='flex gap-5 items-center'>
         <div className='text-2xl flex gap-5'>
           <RiMessage2Line />

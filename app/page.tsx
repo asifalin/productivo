@@ -1,4 +1,3 @@
-// import Dashbord from '@/Components/Dashbord/Dashbord'
 import Dashbord from './Dashbord/page'
 import Sidebar from '@/Components/Sidebar/Sidebar'
 import React from 'react'
