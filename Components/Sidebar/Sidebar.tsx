@@ -62,7 +62,7 @@ let Sidebars = [
 ];
 function Sidebar() {
   return (
-    <div className='mt-[22px] '>
+    <div className='mt-[25px] '>
       <div className='w-[130px] h-[30.93px] px-6 '>
         <Image src={logo} alt='Branding' width={100} />
       </div>
