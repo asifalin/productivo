@@ -12,7 +12,7 @@ function ProductPage() {
       </div>
       <div className='w-full ' > 
         <div className='m-auto'>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-between text-black bg-white'>
             <h1>
               Product
             </h1>
@@ -23,6 +23,9 @@ function ProductPage() {
           </div>      
         <div className='bg-white text-black'>
         <Product/>
+        </div>
+        <div>
+          
         </div>
       </div>
     </div>
