@@ -7,6 +7,7 @@ function Categories() {
       <div className="flex items-center w-full justify-between">
         <h1>Categories</h1>
         <Navbar/>
+        <h1>images</h1>
       </div>
     </>
   );
