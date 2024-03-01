@@ -9,6 +9,7 @@ function Categoriespage() {
         <Sidebar />
       </div>
       <div className='w-full'>
+  
         <Categories/>
        
       </div>
