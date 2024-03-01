@@ -38,9 +38,9 @@ let headeritem=[
 ]
 function Head() {
   return (
-    <div className='flex justify-around'>
+    <div className='flex justify-around py-5'>
       {headeritem.map((item) => (
-  <div key={item.id} className="flex items-center gap-2 bg-gray-200 w-[20%] p-5  ">
+  <div key={item.id} className="flex items-center gap-2 bg-white w-[20%] p-5  ">
     <div className='bg-[blue] text-white text-2xl p-3 rounded-full'>
       {item.icon}
     </div>
