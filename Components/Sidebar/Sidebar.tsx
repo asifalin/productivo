@@ -45,7 +45,7 @@ let Sidebars = [
     id: 6,
     icon: <GrInbox/>,
     heading: `Products`,
-    link:'/product',
+    link:'/Product',
   },
   {
     id: 7,
