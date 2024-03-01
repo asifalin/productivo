@@ -54,7 +54,7 @@ const Product = () => {
   };
 
   return (
-    <div className=" flex flex-wrap justify-center ">
+    <div className=" flex flex-wrap justify-around ">
       {pro.map((item, index) => (
         <div
           key={item.id}
