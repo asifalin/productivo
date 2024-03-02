@@ -11,7 +11,7 @@ function Navhead() {
 
             </div>
             <select className='w-52 py-1 rounded-md'>
-                <option value="">Hello</option>
+                <option value="">Beverages</option>
                 <option value="">Hello</option>
                 <option value="">Hello</option>
             </select>
@@ -23,7 +23,7 @@ function Navhead() {
 
             </div>
             <select name="" id="" className='w-52 py-1 rounded-md'>
-                <option value="">Hello</option>
+                <option value="">Spirits</option>
                 <option value="">Dashnord</option>
                 <option value="">Team</option>
             </select>
@@ -34,9 +34,9 @@ function Navhead() {
 
             </div>
             <select name="" id="" className='w-52 py-1 rounded-md'>
-                <option value="">one</option>
-                <option value="">Two</option>
-                <option value="">Three</option>
+                <option value="">United state</option>
+                <option value="">United state</option>
+                <option value="">United state</option>
             </select>
         </div>
         </div>
