@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Head from "./Head";
 import Product from "../product/product";
 import Linechart from "./Linechart";
+import Navhead from "./Navhead";
 
 function Dashbord() {
   return (
@@ -14,6 +15,7 @@ function Dashbord() {
       </div>
 
       <div className="bg-gray-300 py-5">
+        <Navhead/>
         <Head />
 
         <div className="mt-10 bg-white">
