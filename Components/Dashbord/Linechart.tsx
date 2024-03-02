@@ -1,8 +1,8 @@
+
 import React, { useEffect } from 'react';
 import dynamic from 'next/dynamic'; // Import dynamic from next/dynamic
 import ApexCharts from 'apexcharts';
 
-// Dynamically import ReactApexChart component to ensure it's only loaded on the client-side
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 function Linechart() {
