@@ -9,7 +9,9 @@ import { TiSocialDribbbleCircular } from "react-icons/ti";
 import { GrInbox } from "react-icons/gr";
 import Link from 'next/link';
 import { PiHandHeartFill } from "react-icons/pi";
-import { FaBox } from "react-icons/fa";
+import { FaBox,FaRegUserCircle } from "react-icons/fa";
+import { IoSettingsOutline } from "react-icons/io5";
+
 let Sidebars = [
   {
     id: 1,
@@ -58,6 +60,18 @@ let Sidebars = [
     icon: <FaBox/>,
     heading: `Packaging`,
     link:'/Packaging'
+    },
+  {
+    id: 9,
+    icon: <FaRegUserCircle/>,
+    heading: `User`,
+    link:'/User'
+    },
+  {
+    id: 10,
+    icon: <IoSettingsOutline/>,
+    heading: `Satting`,
+    link:'/Satting'
     },
 ];
 function Sidebar() {

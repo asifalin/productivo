@@ -5,7 +5,7 @@ import Head from '../Dashbord/Head'
 import Sidebar from '../Sidebar/Sidebar'
 import Linechart from '../Dashbord/Linechart'
 import Product from '../product/product'
-import Progressbar from './ProgressBar'
+import Progressbar from './Progressbar'
 import Table from './Table'
 
 function Market() {

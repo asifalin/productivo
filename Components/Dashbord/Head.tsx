@@ -6,41 +6,41 @@ let headeritem=[
     {
         id: 1,
         icon: <MdOutlineMessage/>,
-        para: 'hello',
+        para: 'Data Points',
         number1: `100,231`,
-        number2: `+011.01%`,
+        number2: `+11.01%`,
         icon1: <FaArrowTrendUp />,
       },
     {
         id: 2,
         icon: <MdMosque/>,
-        para: 'hello',
+        para: 'Restaurants',
         number1: `100,231`,
-        number2: `1.01%`,
+        number2: `+11.01%`,
         icon1: <FaArrowTrendUp />,
       },
     {
         id: 3,
         icon: <FaRegCalendarCheck/>,
-        para: 'hello',
-        number1: `100,231`,
-        number2: `1.01%`,
+        para: 'Posts',
+        number1: `9,667`,
+        number2: `+11.01%`,
         icon1: <FaArrowTrendUp />,
       },
     {
         id: 4,
         icon: <FaUsers/>,
-        para: 'hello',
-        number1: `100,231`,
-        number2: `1.01%`,
+        para: 'Products',
+        number1: `4,421`,
+        number2: `+11.01%`,
         icon1: <FaArrowTrendUp />,
       },   
 ]
 function Head() {
   return (
-    <div className='flex justify-around py-5'>
+    <div className='lg:grid grid-cols-4 gap-5 py-5'>
       {headeritem.map((item) => (
-  <div key={item.id} className="flex items-center gap-2 bg-white w-[20%] p-5  ">
+  <div key={item.id} className="flex gap-5 items-center bg-white  p-5 rounded-lg  ">
     <div className='bg-[blue] text-white text-2xl p-3 rounded-full'>
       {item.icon}
     </div>
