@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Dashbord/Navbar";
+import Categorieitems from "./Categorieitems";
 
 function Categories() {
   return (
@@ -10,7 +11,7 @@ function Categories() {
         
       </div>
       <div className="p-7">
-
+<Categorieitems/>
       </div>
 
     </div>
