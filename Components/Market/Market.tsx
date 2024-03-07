@@ -7,6 +7,7 @@ import Linechart from '../Dashbord/Linechart'
 import Product from '../product/product'
 import Progressbar from './Progressbar'
 import Table from './Table'
+import Slider from './Slider'
 
 function Market() {
   return (
@@ -24,9 +25,19 @@ function Market() {
           <Navbar/>
 
           </div>
-                <div className='bg-orange-500 mx-7'>
-                <div>
-                    <Linechart/>
+                <div className='mx-7 my-7 '>
+                <div className='flex gap-4 my-7'>
+                   <div className='bg-white w-[630px] p-10'>
+                    <h1 className='text-[22px] font-semibold'>New Lounches</h1>
+                    <hr className='my-4'/>
+                   <Slider />
+                   </div>
+                 <div className='bg-white w-[493px]'>
+
+                  <Linechart/>
+                 </div>
+
+                
                 </div>
                 <div className='bg-white text-black'>
                     <h1 className='p-5'>Product List</h1>
