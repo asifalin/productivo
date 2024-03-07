@@ -5,7 +5,7 @@ import Categorieitems from "./Categorieitems";
 function Categories() {
   return (
     <div>
-      <div className="flex items-center w-full justify-between px-7 bg-white text-black">
+      <div className="flex items-center w-full justify-between px-7 bg-white text-black ">
         <h1 className=" text-[24px] font-semibold">Beverages</h1>
         <Navbar/>
         

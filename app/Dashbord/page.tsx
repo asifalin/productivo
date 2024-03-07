@@ -5,7 +5,7 @@ import Dashboard from '../../Components/Dashbord/Dashbord';
 function DashboardPage() {
   return (
     <div className='flex'>
-      <div className='bg-[#004AAD] w-[231px] h-[1628px] text-white flex'>
+      <div className='bg-[#004AAD] w-[231px]  text-white '>
         <Sidebar />
       </div>
       <div className="bg-[#FFFFFF] w-full ">
