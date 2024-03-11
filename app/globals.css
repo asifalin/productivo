@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.login{
+  background-image: url(../public/picture/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

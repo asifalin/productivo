@@ -4,23 +4,13 @@ import React from 'react'
 
 function Categoriespage() {
   return (
-    // <div className='flex'>
-    //    <div className='bg-[#004AAD] lg:w-[231px] text-white flex'>
-    //     <Sidebar />
-    //   </div>
-    //   <div className='w-full'>
-  
-    //     <Categories/>
-       
-    //   </div>
-    // </div>
 
 
     <div className='flex'>
       <div className='bg-[#004AAD] w-[231px] text-white '>
         <Sidebar />
       </div>
-      <div className="bg-[#FFFFFF] w-full ">
+      <div className="bg-gray-300 w-full ">
       <Categories/>
       </div>
     </div>
