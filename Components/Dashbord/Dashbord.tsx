@@ -6,6 +6,9 @@ import Product from "../product/product";
 import Linechart from "./Linechart";
 import Navhead from "./Navhead";
 import Progressbar from "../Market/Progressbar";
+import CircleChart from "./CircleChart";
+import Login from "../Login/Login";
+
 
 function Dashbord() {
   return (
@@ -35,7 +38,9 @@ function Dashbord() {
       <div className="lg:flex md:block gap-[19px] my-[30px]">
         <div className="bg-white lg:w-[60%] md:w-full  p-6 leading-6 rounded-lg">
         <h1 className="pb-5 text-[22px] font-semibold">Popular Flavors</h1>
-          <p>circle box</p>
+          <div className="w-[60%]">
+          <CircleChart/>
+          </div>
         
         </div>
         <div className="bg-white lg:w-[50%] md:w-full p-6 leading-6 rounded-lg">
@@ -43,11 +48,17 @@ function Dashbord() {
           <Progressbar/>
         </div>
       </div>
-      <div className="mt-10 bg-white">
+      <div className="mt-10 bg-white rounded-lg">
           <h1 className="text-[22px] font-semibold py-5">New Product Launches</h1>
           <Product />
         </div>
+
     </div>
+    <div className=''>
+        <Login />
+        </div>
+  
+
       </div>
   );
 }
