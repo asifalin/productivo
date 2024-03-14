@@ -5,7 +5,7 @@ import React from "react";
 function page() {
   return (
     <>
-      <div className="flex">
+      <div className="">
         <div className="bg-[#FFFFFF] w-full">
           <Dashbord />
          
