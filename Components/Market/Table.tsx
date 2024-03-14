@@ -6,7 +6,7 @@ const Table = () => {
   
   return (
     <div className="w-full custom-scrollbar">
-      <table className="border border-gray-800 text-[10px] text-gray-700">
+      <table className="border border-gray-800 text-[10px] text-gray-700 w-full">
         <thead className='bg-blue-100 text-gray-500'>
           <tr>
             <th className="text-start">Product</th>

@@ -1,26 +1,25 @@
 "use client"
 import React from "react";
-import Navbar from "./Navbar";
-import Head from "./Head";
+import Navbar from "../Dashbord/Navbar";
 import Product from "../product/product";
-import Linechart from "./Linechart";
-import Navhead from "./Navhead";
+import Linechart from "../Dashbord/Linechart";
+import Navhead from "../Dashbord/Navhead";
 import Progressbar from "../Market/Progressbar";
-import CircleChart from "./CircleChart";
+import CircleChart from "../Dashbord/CircleChart";
 import Login from "../Login/Login";
+import Table from "../Market/Table";
 
 
-function Dashbord() {
+function Demographics() {
   return (
     <div>
-      <div className="flex items-center justify-between px-7 bg-white text-black  ">
-        <h1 className=" text-[24px] font-semibold">Dashbord</h1>
+      <div className="lg:flex md:block items-center justify-between px-7 bg-white text-black fixed w-[86%] ">
+        <h1 className=" text-[24px] font-semibold">Demographics</h1>
         <Navbar />
       </div>
 
       <div className="bg-gray-300 py-[7%] px-7 ">
         <Navhead/>
-        <Head />
 
 
       <div className="lg:flex md:block gap-[19px]">
@@ -47,19 +46,16 @@ function Dashbord() {
           <Progressbar/>
         </div>
       </div>
-      <div className="mt-10 bg-white rounded-lg">
-          <h1 className="text-[22px] font-semibold py-5">New Product Launches</h1>
-          <Product />
+      <div className="mt-10 bg-white rounded-lg ">
+          <Table />
         </div>
 
     </div>
-    <div className=''>
-        <Login />
-        </div>
+  
   
 
       </div>
   );
 }
 
-export default Dashbord;
+export default Demographics;
