@@ -6,7 +6,7 @@ function Categoriespage() {
   return (
 
 
-    <div className='flex'>
+    <div className='block lg:flex md:flex'>
       <div className='bg-[#004AAD] w-[231px] text-white '>
         <Sidebar />
       </div>
