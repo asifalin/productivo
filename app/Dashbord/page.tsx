@@ -4,7 +4,7 @@ import Dashboard from '../../Components/Dashbord/Dashbord';
 
 function DashboardPage() {
   return (
-    <div className='flex'>
+    <div className='block lg:flex md:flex'>
       <div className='bg-[#004AAD] w-[231px]  text-white '>
         <Sidebar />
       </div>
